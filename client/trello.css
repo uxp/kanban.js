@@ -1,0 +1,130 @@
+html, * {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	padding: 10px;
+}
+
+li {
+	list-style: none;
+	font-size: 14px;
+}
+
+li a {
+	float: right;
+	margin: 3px;
+	font-size: 12px;
+}
+
+li p.task {
+	min-height: 23px;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+header.header {
+	width: 100%;
+	height: 45px;
+	background-color: #DDD;
+	border-bottom: 1px solid #666666;
+}
+
+header.header .logo {
+	margin: 0 auto;
+	width: 150px;
+	text-align: center;
+}
+
+.right {
+	float: right;
+}
+
+.menu {
+	display: inline-block;
+	padding: 14px 20px;
+}
+
+.menu #login-dropdown-list {
+	left: -140px;
+}
+.menu a.login-close-text {
+	float: right !important;
+	font-size: 75%;
+}
+
+.list {
+	width: 300px;
+	float: left;
+	padding: 2px 8px;
+	background-color: #DDD;
+	margin: 10px;
+	border: 1px solid #666;
+	border-radius: 7px;
+}
+
+.card {
+	cursor: move;
+	border-radius: 3px;
+	border: 1px solid #666;
+	margin: 5px;
+	padding: 4px;
+	word-wrap: break-word;
+	background-color: #fff;
+}
+
+.card.editing textarea {
+	width: 249px;
+	resize: none;
+	padding: 5px;
+}
+
+.card.editing button {
+	padding: 4px 7px;
+}
+
+.card:hover.editing {
+	cursor: default;
+	-webkit-transform: none;
+	-o-transform: none;
+	-ms-transform: none;
+	-moz-transform: none;
+	transform: none;
+}
+
+.card:hover {
+	-webkit-transform: rotate(1deg);
+	-o-transform: rotate(1deg);
+	-ms-transform: rotate(1deg);
+	-moz-transform: rotate(1deg);
+	transform: rotate(1deg);
+}
+
+.ui-icon {
+	display: inline-block;
+	vertical-align: middle;
+	text-indent: -99999px;
+	overflow: hidden;
+	width: 16px;
+	height: 16px;
+	background-image: url(/images/ui-icons_222222_256x240.png);
+	background-repeat: no-repeat;
+}
+.ui-icon-pencil {
+	background-position: -64px -112px;
+}
+
+.ui-state-highlight {
+	width: 300px;
+	height: 300px;
+	float: left;
+	padding: 2px 8px;
+	background-color: #999;
+	margin: 10px;
+	border: 1px solid #666;
+	border-radius: 7px;
+}
+
